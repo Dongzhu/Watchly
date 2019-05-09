@@ -1,5 +1,5 @@
 # Watchly
-This is an online movie player
+An online movie player
 
 # Screenshot
 
