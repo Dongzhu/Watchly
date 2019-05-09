@@ -1,8 +1,7 @@
 <?php
 session_start();
 
-$mysql_connection = new mysqli('localhost', 'id8302607_admin', 'watchly@2018', 'id8302607_watchly') or die(mysqli_error($mysql_connection));
-//$mysql_connection = new mysqli('localhost', 'root', '123456', 'watchly') or die(mysqli_error($mysql_connection));
+$mysql_connection = new mysqli('host', 'user', 'pass', 'dbname') or die(mysqli_error($mysql_connection));
 
 
 if(isset($_POST['admin-movie-new'])){
